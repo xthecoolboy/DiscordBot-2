@@ -2,18 +2,17 @@
 var config = { // NOTE: DO NOT LEAVE ANYTHING BLANK
 	// ALL settings are strings. Do NOT just use true or false, use these in strings such as 'true' or 'false'. This is due to how some code works when changing the settings
 	ownerID: '376384142599782410', // Your ID here
-	token: '', // Your bot token here
 	status: 'dnd', // Bot status [online/idle/invisible/dnd]
 	debug: 'false', // This is used to output some debug info if needed. The token will be in the console and other information could be in the console
 	playingGame: '{{prefix}}help | {{guilds}} guilds | v{{version}}', // The game you want the bot to play. {{prefix}} is replaced with the default prefix below, {{guilds}} is replaced with the guild count and {{version}} is replaced with the bot version. Leave blank to disable
 	purgeLogFormat: '\n Message ID: {{mID}} | Message Timestamp: {{mTS}} | Content: {{mC}} \n', // {{mID}}: Message ID; {{mTS}} Message Timestamp; {{mC}}: Message Content;
 	eightBallResponses: ['Yes', 'No', 'Certainly', 'My sources say yes', 'Try again later', 'Without a doubt', 'Better not to tell you now'], // An array of responses for the 8ball command
-	cleverbotToken: '', // API Token for CleverBot
-  googleAPIToken: '', // Used for link shortener and music features. You need to have these APIs enabled.
+	cleverbotToken: 'AIzaSyDts1BBErQx4zGFyXghy0igA1y8JbOJ7c4', // API Token for CleverBot
+  googleAPIToken: 'AIzaSyDts1BBErQx4zGFyXghy0igA1y8JbOJ7c4', // Used for link shortener and music features. You need to have these APIs enabled.
   logTimeFormat: 'D MMM YYYY HH:mm:ss ZZ',
   musicEnabled: 'true',
 	defaultSettings: {
-		prefix: '&&&',
+		prefix: '>>',
 		modLogChannel: 'mod-log',
 		modRole: 'Moderator',
 		adminRole: 'Admin',
